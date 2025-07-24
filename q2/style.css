@@ -1,0 +1,20 @@
+body {
+  direction: rtl;
+  font-family: Gisha;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #7b2e2e;
+  color: #fff3e0;
+  text-align: center;
+  padding: 15px 10px;
+  z-index: 1000;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 20px;
+}
