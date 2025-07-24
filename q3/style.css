@@ -1,0 +1,39 @@
+body {
+    font-family: Gisha;
+    direction: rtl;
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input,
+select,
+button {
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: Gisha;
+}
+
+#messages {
+    margin-top: 20px;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}

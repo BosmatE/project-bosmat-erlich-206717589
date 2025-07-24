@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="he">
+
+<head>
+    <meta charset="UTF-8">
+    <title>מערכת בקשת לחשים אישית</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>טופס בקשת לחש</h1>
+    <form id="spellForm">
+
+        <label>שם מלא:
+            <input type="text" id="fullName" />
+        </label>
+
+        <label>אימייל:
+            <input type="text" id="email" />
+        </label>
+
+        <label>סוג לחש:
+            <select id="spellType">
+                <option value="">בחר סוג לחש</option>
+                <option value="התקפי">התקפי</option>
+                <option value="הגנתי">הגנתי</option>
+                <option value="חיזוק">חיזוק</option>
+            </select>
+        </label>
+
+        <label>רמת ידע נוכחית (1-10):
+            <input type="number" id="knowledgeLevel" min="1" max="10" />
+        </label>
+
+        <label>האם יש שרביט?
+            <select id="hasWand">
+                <option value="כן">כן</option>
+                <option value="לא">לא</option>
+            </select>
+        </label>
+
+        <label>מספר ניסיונות קודמים בלחש:
+            <input type="number" id="previousAttempts" />
+        </label>
+        
+        <button type="submit">שלח בקשה</button>
+    </form>
+    <div id="messages"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
