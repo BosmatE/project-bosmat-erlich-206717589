@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="he">
+
+<head>
+    <meta charset="UTF-8">
+    <title>ניהול בקשות לחש</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>רשימת בקשות לחש</h1>
+
+    <div class="filters">
+        <label>סינון לפי סוג לחש:
+            <select id="filterSpellType">
+                <option value="">הכל</option>
+                <option value="התקפי">התקפי</option>
+                <option value="הגנתי">הגנתי</option>
+                <option value="חיזוק">חיזוק</option>
+            </select>
+        </label>
+    </div>
+
+    <div id="stats"></div>
+    <div id="requestsContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
